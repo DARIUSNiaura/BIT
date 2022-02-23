@@ -1,0 +1,114 @@
+header{
+    font-family:'Trebuchet MS';
+    font-size: 30px;
+    text-align: center;
+    background-image:url(../IMG/sales.jpg);
+    background-position: center;
+    color:rgb(94, 17, 17);
+}
+
+nav{
+    float:inline-start;
+    padding:40px;
+    background-image:url(../IMG/salenav.jpg);
+}
+
+a:link, a:visited {
+    font-family:Verdana;
+    font-weight: bold;
+    padding:25px;
+    border:2px solid rgb(237, 239, 243);
+    background-color: rgb(47, 52, 61);
+    color:white;
+    text-decoration: none;
+    border-radius:10px;
+}
+
+a:hover, a:active{
+    background-color:white;
+    color:rgb(47, 52, 61);
+    
+}
+
+h2{
+    font-size: 50px;
+    font-family:'Courier New';
+    border:5px solid lightslategray;
+    border-radius: 20px;
+    text-align: center;
+    color:rgb(59, 20, 20);
+    background-color: rgb(15, 87, 160,0.4);
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    border:2px solid slategray;
+    padding: 10px;
+    font-family: 'Times New Roman';
+    font-size:25px;
+    color:rgb(0, 0, 0);
+    background-color: darkseagreen;
+    text-align: center;
+    border-radius:10px;
+}
+
+table tr:nth-child(even){
+    background-color:rgba(173, 216, 230, 0.4)
+}
+
+table tr:hover{
+    background-color: rgb(94, 17, 17,0.3)
+}
+
+table td{
+    border:2px solid rgb(255, 255, 255);
+    padding: 10px;
+    font-family: 'Times New Roman';
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+input[type=text], input[type=email], input[type=submit]{
+    width:40%;
+    padding:15px;
+    text-align: center;
+
+
+}
+
+input[type=submit]{
+    width:100%;
+    text-align: center;
+    font-family:'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: greenyellow;
+    background-color: black;
+
+}
+
+label{
+    width:40%;
+    padding: 15px;
+    font-size:30px;
+    text-align: left;
+    color:darkred;
+
+
+}
+
+form{
+    border: 2px solid black;
+    width:60%;
+    margin-left:100px;
+}
