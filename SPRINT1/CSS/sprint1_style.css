@@ -34,7 +34,7 @@ header {
 }
 
 nav {
-  opacity: 70%;
+  opacity: 80%;
   font-family: var(--ff-nav);
   background-color: #9e736a;
   position: sticky;
@@ -85,8 +85,52 @@ section {
 .html {
   display: flex;
   flex-direction: row;
+  flex-basis: auto;
   text-align: center;
   max-width: 100%;
+}
+
+form {
+  text-align: center;
+  line-height: 2rem;
+  font-family: var(--ff-nav);
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 2px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+}
+
+input[type="textarea"] {
+  width: 50%;
+  height: 3rem;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10;
+  resize: none;
+}
+
+input[type="submit"] {
+  border-radius: 60px;
+  background-color: aquamarine;
+}
+
+input[type="submit"]:hover {
+  box-sizing: border-box;
+  border: 300px, 200px;
+  background-color: rgb(162, 221, 198);
+  font-family: var(--ff-primary);
+  font-size: 50px;
+  transition: 1s;
+}
+
+#form1 {
+  font-family: var(--ff-nav);
 }
 
 footer {
