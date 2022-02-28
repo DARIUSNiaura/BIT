@@ -81,6 +81,7 @@ section {
 }
 
 footer {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -90,6 +91,7 @@ footer {
   text-align: center;
   align-items: center;
   font-size: 0.5em;
+  margin-top: auto;
 }
 
 h2 {
@@ -103,7 +105,8 @@ h5 {
   color: #f8f9f9;
   font-style: italic;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.5em;
+  letter-spacing: 3px;
 }
 p {
   text-align: center;
