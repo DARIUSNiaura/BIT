@@ -18,7 +18,6 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-
   min-height: 100%;
 }
 
@@ -58,11 +57,11 @@ a:visited {
   font-style: italic;
   padding: 16px;
   border: 2px solid --clr-navigation;
-  /* background-color: skyblue; */
   color: rgb(44, 40, 82);
   text-decoration: none;
 }
-.nav-bar a:hover a:active {
+.nav-bar a:hover,
+a:active {
   color: var(--clr-neutral);
   font-family: var(--ff-header);
 }
@@ -129,7 +128,7 @@ table tr:hover {
 
 .now {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   max-width: 80%;
 }
 
