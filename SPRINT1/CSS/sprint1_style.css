@@ -48,7 +48,7 @@ nav {
 }
 
 a {
-  margin: 1rem, 1rem;
+  margin: 1rem 1rem;
 }
 
 .nav-bar a:link,
@@ -60,9 +60,7 @@ a:visited {
   color: rgb(44, 40, 82);
   text-decoration: none;
 }
-
-.nav-bar a:hover,
-a:active {
+.nav-bar a:hover a:active {
   color: var(--clr-neutral);
   font-family: var(--ff-header);
 }
@@ -167,7 +165,7 @@ input[type="textarea"] {
   height: 3rem;
   border-radius: 10px;
   box-sizing: border-box;
-  padding: 10;
+  padding: 10rem;
   resize: none;
 }
 
@@ -180,7 +178,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   box-sizing: border-box;
-  border: 300px, 200px;
+  border: 300px 200px;
   background-color: rgb(95, 228, 78);
   font-family: var(--ff-primary);
   font-size: 50px;
