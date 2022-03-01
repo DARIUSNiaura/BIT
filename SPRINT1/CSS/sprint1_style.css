@@ -138,8 +138,8 @@ table tr:hover {
 }
 
 .p1,
-p2,
-p3 {
+.p2,
+.p3 {
   max-width: 100%;
   text-align: center;
   padding: 4rem;
