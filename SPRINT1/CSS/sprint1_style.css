@@ -34,9 +34,9 @@ header {
 }
 
 nav {
-  opacity: 80%;
   font-family: var(--ff-nav);
-  background-color: #9e736a;
+  background-color: rgba(158, 115, 106, 0.7);
+  backface-visibility: 80%;
   position: sticky;
   align-items: center;
   max-width: 100%;
@@ -46,6 +46,10 @@ nav {
   list-style-type: none;
   display: flex;
   border-top-right-radius: 3rem;
+}
+
+a {
+  margin: 1rem, 1rem;
 }
 
 .nav-bar a:link,
@@ -65,15 +69,23 @@ a:active {
   font-family: var(--ff-header);
 }
 
-img {
+#log1,
+#log2,
+#log3 {
   width: 2rem;
   height: 2rem;
 }
 
+#log4 {
+  width: 9rem;
+  height: auto;
+  margin: 30px;
+  padding-left: 690px;
+}
+
 section {
   background-color: antiquewhite;
-  padding-top: 3em;
-  margin-top: -1em;
+  padding-top: 3rem;
 }
 
 .content {
@@ -90,6 +102,33 @@ section {
   max-width: 100%;
 }
 
+.htmlcont {
+  padding: 2rem 1rem 0 1rem;
+}
+
+table {
+  display: block;
+  text-align: center;
+  max-width: 50%;
+  border: 2px solid white;
+}
+
+table td,
+table th {
+  padding: 1rem;
+  border: 2px solid white;
+  font-family: var(--ff-primary);
+}
+
+table th {
+  background-color: #989494;
+}
+
+table tr:hover {
+  background-color: #989494;
+  color: rgb(255, 255, 255);
+}
+
 form {
   text-align: center;
   line-height: 2rem;
@@ -104,6 +143,7 @@ input[type="email"] {
   text-align: center;
   font-size: 16px;
   padding: 10px;
+  margin-bottom: 2rem;
 }
 
 input[type="textarea"] {
@@ -117,16 +157,19 @@ input[type="textarea"] {
 
 input[type="submit"] {
   border-radius: 60px;
-  background-color: aquamarine;
+  background-color: rgb(228, 58, 58);
+  color: white;
+  margin: 1rem;
 }
 
 input[type="submit"]:hover {
   box-sizing: border-box;
   border: 300px, 200px;
-  background-color: rgb(162, 221, 198);
+  background-color: rgb(95, 228, 78);
   font-family: var(--ff-primary);
   font-size: 50px;
   transition: 1s;
+  color: black;
 }
 
 #form1 {
@@ -157,6 +200,11 @@ h2 {
 h3 {
   font-family: var(--ff-primary);
   text-align: center;
+}
+
+h4 {
+  text-align: center;
+  max-width: 50%;
 }
 
 h5 {
