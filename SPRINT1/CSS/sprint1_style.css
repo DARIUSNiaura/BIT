@@ -35,8 +35,7 @@ header {
 
 nav {
   font-family: var(--ff-nav);
-  background-color: rgba(158, 115, 106, 0.7);
-  backface-visibility: 80%;
+  background-color: rgba(158, 115, 106, 0.6);
   position: sticky;
   align-items: center;
   max-width: 100%;
@@ -64,7 +63,6 @@ a:visited {
 
 .nav-bar a:hover,
 a:active {
-  background-color: var(--clr-landing);
   color: var(--clr-neutral);
   font-family: var(--ff-header);
 }
@@ -79,8 +77,8 @@ a:active {
 #log4 {
   width: 9rem;
   height: auto;
-  margin: 20px;
-  padding-left: 670px;
+  position: relative;
+  align-items: center;
 }
 
 section {
@@ -109,7 +107,7 @@ section {
 table {
   display: block;
   text-align: center;
-  max-width: 50%;
+  max-width: 80%;
   border: 2px solid white;
 }
 
@@ -131,12 +129,20 @@ table tr:hover {
 
 .now {
   display: flex;
-  flex-direction: column;
-  max-width: 50%;
-  position: relative;
-  margin-left: 50%;
-  margin-top: -37%;
-  padding-bottom: 10rem;
+  flex-direction: row;
+  max-width: 80%;
+}
+
+.csscont {
+  display: flex;
+}
+
+.p1,
+p2,
+p3 {
+  max-width: 100%;
+  text-align: center;
+  padding: 4rem;
 }
 
 form {
@@ -214,7 +220,8 @@ h3 {
 
 h4 {
   text-align: center;
-  max-width: 50%;
+  max-width: 100%;
+  background-color: rgba(158, 115, 106, 0.3);
 }
 
 h5 {
@@ -227,7 +234,7 @@ h5 {
 }
 p {
   text-align: center;
-  font-family: var(--ff-primary);
+  font-family: var(--ff-nav);
   margin-left: 2em;
   margin-right: 2rem;
 }
