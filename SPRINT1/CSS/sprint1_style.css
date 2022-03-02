@@ -56,14 +56,17 @@ a:visited {
   font-family: Impact, sans-serif;
   font-style: italic;
   padding: 16px;
-  border: 2px solid --clr-navigation;
   color: rgb(44, 40, 82);
   text-decoration: none;
+  margin: 10px 20px;
+  letter-spacing: 1px;
 }
 .nav-bar a:hover,
 a:active {
+  padding: 16px;
   color: var(--clr-neutral);
   font-family: var(--ff-header);
+  margin: 8px 14px;
 }
 
 #log1,
